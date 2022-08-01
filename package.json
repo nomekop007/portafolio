@@ -1,6 +1,6 @@
 {
-  "name": "awesome-react-portfolio",
-  "version": "0.1.0",
+  "name": "portafolio",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.3",
@@ -26,7 +26,7 @@
     "yup": "^0.32.9"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "format": "prettier --write .",
     "test": "react-scripts test",
