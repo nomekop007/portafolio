@@ -2,7 +2,6 @@ const skillsList = [
   { title: "Vue JS", value: 80 },
   { title: "Quasar", value: 65 },
   { title: "Angular", value: 80 },
-  { title: "Jest", value: 60 },
   { title: "Node JS", value: 80 },
   { title: "Express JS", value: 70 },
   { title: "Sequelize", value: 60 },
@@ -10,9 +9,7 @@ const skillsList = [
   { title: "Sql Server", value: 60 },
   { title: "Oracle DB", value: 60 },
   { title: "MySQL", value: 50 },
-  { title: "PostgreSQL", value: 50 },
   { title: "Firebase", value: 70 },
-  { title: "Mongo DB", value: 60 },
 ];
 const projectList = [
   {
