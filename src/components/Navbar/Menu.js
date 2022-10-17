@@ -119,7 +119,7 @@ const Menu = ({ homeIsActive }) => {
       <motion.div custom={4} animate={controls}>
         <Button
           component={MuiLink}
-          href="/diego_antonio_rios_rojas.pdf"
+          href="diego_antonio_rios_rojas.pdf"
           variant="outlined"
           color="primary"
           underline="none"
