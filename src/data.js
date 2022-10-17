@@ -14,53 +14,53 @@ const skillsList = [
 ];
 const projectList = [
   {
+    id: 5,
+    title: "CMPC-ePallet",
+    technologies: ["Vue", "Node JS", "Express", "Sql Server", "Typescript"],
+    backgroundImage:
+      "https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.2.2102900112.1628985600",
+    frontImage: "proyect_cmpc_pallet.png",
+  },
+  {
     id: 1,
     title: "Arquitectura tutelkan",
-    technologies: ["Vue", "Node JS", "Oracle DB"],
+    technologies: ["Vue", "Node JS", "Express", "Oracle DB", "Typescript"],
     backgroundImage:
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
     frontImage: "proyect_arquitectura_tutelkan.png",
   },
   {
-    id: 2,
-    title: "Transport-Talca",
-    technologies: ["Firebase", "React Native", "Angular", "Java"],
+    id: 4,
+    title: "Plan gerencial",
+    technologies: ["Vue", "Node JS", "Express", "Oracle DB", "Javascript"],
     backgroundImage:
-      "https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.2.2102900112.1628985600",
-    frontImage: "https://i.ibb.co/zNMJFTW/Webp-net-resizeimage.png",
+      "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
+    frontImage: "proyect_plan_gerencial.png",
   },
   {
     id: 3,
     title: "Rent-a-car",
-    technologies: ["Angular", "Node JS", "MySql"],
+    technologies: ["Angular", "Typescript", "Node JS", "MySql"],
     backgroundImage:
       "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
     frontImage:
       "https://themes-backend.material-ui.com/wp-content/uploads/2021/05/01_preview.jpg",
   },
   {
-    id: 4,
-    title: "Plan gerencial",
-    technologies: ["Vue", "Node JS", "Oracle DB"],
-    backgroundImage:
-      "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
-    frontImage: "proyect_plan_gerencial.png",
-  },
-  {
-    id: 5,
-    title: "CMPC-ePallet",
-    technologies: ["Vue", "Node JS", "Sql Server"],
+    id: 2,
+    title: "TransporTracking",
+    technologies: ["Firebase", "React Native", "Javascript", "Angular", "Java"],
     backgroundImage:
       "https://img.freepik.com/free-vector/dark-gradient-background-with-copy-space_53876-99548.jpg?size=626&ext=jpg&ga=GA1.2.2102900112.1628985600",
-    frontImage: "proyect_cmpc_pallet.png",
+    frontImage: "proyecto_transporTracking.png",
   },
   {
     id: 6,
     title: "Talita-Cumi",
-    technologies: ["Laravel", "MySql"],
+    technologies: ["Laravel", "PHP", "MySql"],
     backgroundImage:
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
-    frontImage: "https://i.ibb.co/L0F7mKX/tunflix.png",
+    frontImage: "proyecto_talitacumi.png",
   },
 ];
 

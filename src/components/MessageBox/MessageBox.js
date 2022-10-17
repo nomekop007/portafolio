@@ -22,12 +22,7 @@ const MessageBox = () => {
   const SendEmail = (object) => {
     setSending(true);
     emailjs
-      .send(
-        "service_nva6v0x",
-        "template_47fdyh7",
-        object,
-        "user_qT3we7KxrmdHKOFJe28hB"
-      )
+      .send("service_usbx57e", "template_r31eqmm", object, "A79_eidEeDSLBNUwz")
       .then(
         (result) => {
           setSendEmailSuccess(true);
