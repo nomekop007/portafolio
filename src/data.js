@@ -37,7 +37,7 @@ const projectList = [
     technologies: ["Vue", "Node JS", "Express", "Oracle DB", "Javascript"],
     backgroundImage:
       "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
-    frontImage: "proyecto_plan_gerencial_2.jpg",
+    frontImage: "proyecto_planGerencial2.jpg",
   },
   {
     id: 3,
