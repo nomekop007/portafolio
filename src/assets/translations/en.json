@@ -45,5 +45,6 @@
   "contact_error_full_name": "Name is required",
   "contact_error_email": "Email adress is required",
   "contact_error_email_validate": "Email adress is not valid",
-  "contact_error_message": "Message is required"
+  "contact_error_message": "Message is required",
+  "contact_response_message": "Your message has been successfully sent, i'll reply as soon as possible."
 }

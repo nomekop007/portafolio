@@ -44,5 +44,6 @@
   "contact_error_full_name": "Se requiere el nombre",
   "contact_error_email": "Se requiere dirección de correo electrónico",
   "contact_error_email_validate": "La dirección de correo electrónico no es válida",
-  "contact_error_message": "El mensaje es obligatorio"
+  "contact_error_message": "El mensaje es obligatorio",
+  "contact_response_message": "Su mensaje ha sido enviado con éxito, le responderé lo antes posible."
 }
