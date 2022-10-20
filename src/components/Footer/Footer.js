@@ -20,7 +20,7 @@ const Footer = () => {
       <Box className={classes.footer}>
         {isMobile && <Social mobile />}
         <Typography variant="body2" color="initial">
-          © 2022 Diego Rios Rojas, Inc
+          © 2022 Diego Rios Rojas, Mehdi Ben Hadj Ali Inc
         </Typography>
       </Box>
     </Container>

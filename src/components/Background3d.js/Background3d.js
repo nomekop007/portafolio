@@ -2,6 +2,7 @@ import React, { useEffect, useContext } from "react";
 import { motion, useAnimation } from "framer-motion";
 import { makeStyles } from "@material-ui/core/styles";
 import loaderContext from "../../contexts/loaderContext";
+import { CardMedia } from "@material-ui/core";
 
 const Background3d = () => {
   const classes = useStyles();
@@ -27,16 +28,23 @@ const Background3d = () => {
 
   return (
     <motion.div animate={controls} className={classes.wrapper}>
-      <div className={classes.container}>
-        <iframe
+      <CardMedia className={classes.container}>
+        {/* <iframe
           title="background-3d"
-          src="https://my.spline.design/awesomefolio-0c39efc3de701ba97be395cc128e4e2f/"
+          src="portafolio/code.gif"
+          // src="https://my.spline.design/awesomefolio-0c39efc3de701ba97be395cc128e4e2f/"
           frameBorder="0"
           height="100%"
           className={classes.iframe}
-        ></iframe>
+        ></iframe> */}
+
+        <motion.img
+          title="background-3d"
+          src="portafolio/code.gif"
+          className={classes.iframe}
+        />
         <div className={classes.hideLogo} />
-      </div>
+      </CardMedia>
     </motion.div>
   );
 };
@@ -53,7 +61,9 @@ const useStyles = makeStyles((theme) => ({
     top: 0,
     right: 0,
     width: "100%",
-    maxWidth: "600px",
+    marginTop: "13%",
+    marginRight: 80,
+    maxWidth: "500px",
   },
   wrapper: {
     position: "absolute",

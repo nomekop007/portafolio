@@ -2,10 +2,12 @@ const skillsList = [
   { title: "Vue JS", value: 80 },
   { title: "Quasar", value: 65 },
   { title: "Angular", value: 80 },
+  { title: "Typescript", value: 70 },
+  { title: "Javascript", value: 70 },
   { title: "Node JS", value: 80 },
   { title: "Express JS", value: 70 },
-  { title: "Sequelize", value: 60 },
-  { title: ".NET Core", value: 80 },
+  // { title: "Sequelize", value: 60 },
+  // { title: ".NET Core", value: 80 },
   { title: "Sql Server", value: 60 },
   { title: "Oracle DB", value: 60 },
   { title: "MySQL", value: 50 },
@@ -23,7 +25,7 @@ const projectList = [
   },
   {
     id: 1,
-    title: "Arquitectura tutelkan",
+    title: "Administrador de menu y Perfiles",
     technologies: ["Vue", "Node JS", "Express", "Oracle DB", "Typescript"],
     backgroundImage:
       "https://cdn.cbeditz.com/cbeditz/preview/black-red-gradient-background-wallpaper-74-11614352798fbqrv1wpuv.jpg",
@@ -35,16 +37,15 @@ const projectList = [
     technologies: ["Vue", "Node JS", "Express", "Oracle DB", "Javascript"],
     backgroundImage:
       "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
-    frontImage: "proyect_plan_gerencial.png",
+    frontImage: "proyecto_plan_gerencial_2.jpg",
   },
   {
     id: 3,
     title: "Rent-a-car",
-    technologies: ["Angular", "Typescript", "Node JS", "MySql"],
+    technologies: ["Angular", "Typescript", "Node JS", "Express", "MySql"],
     backgroundImage:
       "https://media.istockphoto.com/vectors/abstract-purple-vector-background-with-stripes-vector-id972475894?k=6&m=972475894&s=612x612&w=0&h=99AirGMOb64N2-1ZSMYRjEBp2USrAdzXUGzQMh5o6Js=",
-    frontImage:
-      "https://themes-backend.material-ui.com/wp-content/uploads/2021/05/01_preview.jpg",
+    frontImage: "proyecto_rentacar.png",
   },
   {
     id: 2,

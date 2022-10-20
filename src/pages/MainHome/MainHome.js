@@ -5,12 +5,12 @@ import About from "../../sections/About";
 import Experience from "../../sections/Experience";
 import Projects from "../../sections/Projects";
 import Contact from "../../sections/Contact";
-// import Background3d from "../../components/Background3d.js/Background3d";
-// import { useMediaQuery, useTheme } from "@material-ui/core";
+import Background3d from "../../components/Background3d.js/Background3d";
+import { useMediaQuery, useTheme } from "@material-ui/core";
 
 const MainHome = () => {
-  //   const theme = useTheme();
-  //   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <motion.main
       initial={{ opacity: 0 }}
@@ -26,7 +26,7 @@ const MainHome = () => {
       <Experience />
       <Projects />
       <Contact />
-      {/* {!isMobile && <Background3d />} */}
+      {!isMobile && <Background3d />}
     </motion.main>
   );
 };
