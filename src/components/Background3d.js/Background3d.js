@@ -40,7 +40,7 @@ const Background3d = () => {
 
         <motion.img
           title="background-3d"
-          src="portafolio/code.gif"
+          src="code.gif"
           className={classes.iframe}
         />
         <div className={classes.hideLogo} />
